@@ -1,19 +1,29 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .header__text{
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header{
   width: 100%;
-  min-height: 668px; /* Минимальная высота 668px */
-  height: 100vh; /* Растягивание на всю высоту экрана */
+  min-height: 668px; 
+  height: 100vh; 
   box-sizing: border-box;
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: auto;
-  overflow-y: auto; /* Добавляем полосу прокрутки при необходимости */
+  overflow-y: auto; 
 }
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+}
+
+.title-decor{
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 130%;
+  max-width: 100%;
 }
