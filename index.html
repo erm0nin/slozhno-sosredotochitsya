@@ -22,7 +22,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="decorated-zone__element" aria-hidden="true">rec</div>
+      <span class="decorated-zone__element" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -60,6 +60,7 @@
         <h2 class="section-why__title section__title">
           Почему сосредоточиться так сложно
         </h2>
+        <div>
         <article>
           <h3 class="title-decor">Многозадачность</h3>
           <p class="content__paragraph">
@@ -92,12 +93,14 @@
             тем больше удовольствия получаешь.
           </p>
         </article>
+      </div>
       </section>
       <section class="section-what">
         <h2 class="section-what__title section__title">
           Что снижает концентрацию внимания?
         </h2>
-        <div>
+        <div class="section-multi">
+        <article>
           <h3 class="title-decor">Многозадачность</h3>
           <p class="content__paragraph">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -107,8 +110,8 @@
             — невозможно. Концентрация — мышца, и она может не выдержать, если
             не давать ей отдохнуть.
           </p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h3 class="title-decor">Еда</h3>
           <p class="content__paragraph">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -118,8 +121,8 @@
             заканчивается, мы чувствуем усталость и сонливость. И хотим ещё
             больше быстрых углеводов.
           </p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h3 class="title-decor">Гаджеты</h3>
           <p class="content__paragraph">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -130,17 +133,19 @@
             что чем больше времени мы проводим в гаджетах, тем больше времени
             затем нужно, чтобы вернуться к работе.
           </p>
-        </div>
+        </article>
+      </div>
       </section>
       <section class="section-best">
         <h2 class="section-best__title section__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <article>
+        <div>
           <h3 class="title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
+          <article>
           <h4 class="paragraph__title">Представьте небо и облака</h4>
           <p class="content__paragraph">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
@@ -152,6 +157,8 @@
             вернуться в настоящий момент, а не волноваться о потенциальных
             проблемах из будущего.
           </p>
+        </article>
+        <article>
           <h4 class="paragraph__title">Включите музыку</h4>
           <p class="content__paragraph">
             Но не любую, и не любимую. Любимая может быть связана с сильными
@@ -159,6 +166,8 @@
             Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
             попробовать включить плейлист в «белым шумом» или нейромузыкой.
           </p>
+        </article>
+        <article>
           <h4 class="paragraph__title">Прогуляйтесь</h4>
           <p class="content__paragraph">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
@@ -173,6 +182,8 @@
             мозг поступит ещё больше кислорода и он будет лучше работать. Но и
             простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
+        </article>
+        <article>
           <h4 class="paragraph__title">Хорошо ешьте</h4>
           <p class="content__paragraph">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -180,6 +191,8 @@
             высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица,
             фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
           </p>
+        </article>
+        <article>
           <h4 class="paragraph__title">Читайте</h4>
           <p class="content__paragraph">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
@@ -188,6 +201,7 @@
             часов и круто тренирует направленное внимание.
           </p>
         </article>
+        </div>
       </section>
       <section class="section-gallery">
         <h2 class="title-decor">А можно в картинках?</h2>
@@ -205,13 +219,13 @@
             class="gallery__image"
           />
           <img
-            src="/images/tape.png"
+            src="./images/tape.png"
             alt="Аудиокассета"
             loading="lazy"
             class="gallery__image"
           />
           <img
-            src="/images/books.png"
+            src="./images/books.png"
             alt="Стопка книг с чашкой кофе"
             loading="lazy"
             class="gallery__image"
