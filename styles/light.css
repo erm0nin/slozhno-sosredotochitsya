@@ -28,12 +28,3 @@
   }
 }
 
-@media (width >= 1024px) {
-  .theme_light .header__title {
-    text-shadow: 4px 4px 0px #ff0070;
-  }
-
-  .theme_light .footer__title {
-    text-shadow: 2px 2px 0px #ff0070;
-  }
-}
