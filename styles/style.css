@@ -97,6 +97,30 @@
   border: 1px solid color-mix(in srgb, var(--heading-color) 40%, transparent);
 }
 
+.main-section-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.what-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards-five{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards-group-best{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .header__theme-menu-button:focus {
   outline: none;
 }
