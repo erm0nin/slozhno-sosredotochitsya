@@ -367,6 +367,7 @@
 
   .section-what {
     display: grid;
+    gap: 20px;
   }
 
   .what-card {
@@ -385,18 +386,7 @@
   }
   .section-why {
     display: grid;
-    grid-template-columns: calc((100% - 40px) / 3) calc(
-        ((100% - 40px) / 3) * 2 + 20px
-      );
     gap: 20px;
-  }
-
-  .section__title {
-    margin-block-end: 20px;
-  }
-
-  .section-what__title {
-    grid-column: 1/4;
   }
 
   .section-best {
