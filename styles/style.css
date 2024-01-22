@@ -399,11 +399,3 @@
     grid-template-rows: 25.4vi 30.7vi 42.3vi;
   }
 }
-
-.header__title {
-  text-shadow: 4px 4px 0px var(--accent-color);
-}
-
-.footer__title {
-  text-shadow: 2px 2px 0px var(--accent-color);
-}
