@@ -264,7 +264,17 @@
     grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
+  .main-section-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
+  .what-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
   .section-group-why {
     display: flex;
     flex-direction: column;
@@ -280,6 +290,18 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .cards-five{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cards-group-best{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .section-hard {
     grid-template-columns: 1fr 2fr;
