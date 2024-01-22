@@ -385,14 +385,6 @@
     gap: 20px;
   }
 
-  .header__title {
-    text-shadow: 4px 4px 0px #ff0070;
-  }
-
-  .footer__title {
-    text-shadow: 2px 2px 0px #ff0070;
-  }
-
   .header__theme-menu {
     align-self: start;
     justify-self: center;
@@ -459,12 +451,4 @@
   .gallery {
     grid-template-rows: 25.4vi 30.7vi 42.3vi;
   }
-}
-
-.theme_light .header__title {
-  text-shadow: 4px 4px 0px var(--accent-color);
-}
-
-.theme_light .footer__title {
-  text-shadow: 2px 2px 0px var(--accent-color);
 }
